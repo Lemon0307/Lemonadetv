@@ -1,0 +1,47 @@
+div {
+/*    */
+font-family:sans-serif;
+    
+        }
+    
+        .content {
+        position: relative;
+       background: white;
+       width: auto;
+        height: 300px;
+       padding: 100px;
+        margin: 225px auto;
+        }
+
+body {
+    background-image: url(ICONS/LemonBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+body {
+    
+}
+
+input[type="text"] {
+    background-color: white;
+    border: 1px solid: #E2E2E2;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    outline: none;
+    
+    
+}
+input [type="submit"] {
+    background-color: lightyellow;
+    border: 1px solid yellow;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-radius: 7px;
+}

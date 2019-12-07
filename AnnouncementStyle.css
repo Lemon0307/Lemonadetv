@@ -1,0 +1,102 @@
+h1 {
+    
+    color:black;
+    font-family:'Bebas Neue',sans-serif;
+    
+    } 
+        
+.img-Logo {
+    
+    width: 100px;
+    
+}
+        
+body {
+    background-image: url(ICONS/LemonBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+div {
+/*    */
+font-family:sans-serif;
+    
+        }
+    
+        .content {
+       background: white;
+       width: 100%;
+       padding: 50px;
+        margin: -10px auto;
+        
+        }
+p {
+    
+font-family: 'arial', sans-serif;
+    
+} 
+
+button {
+    width: auto;
+    height: 30px;
+background-color: lightyellow;
+
+}
+
+.search_box {
+
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    mergin-left: 135px;
+        
+}
+
+@media screen and (max-width: 1280px) {
+#menu {
+    background-color: darkorange;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 37px;
+    padding-top: 19px;
+    margin-right; 4%;
+}
+}
+@media screen and (min-width: 1280px) {
+#menu {
+    background-color: darkorange;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 37px;
+    padding-top: 19px;
+    margin-right; 10%;
+}
+}
+@media screen and (min-width: 1920px) {
+#menu {
+    background-color: darkorange;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 37px;
+    padding-top: 19px;
+    margin-right; 25%;
+}
+}
+#menu a {
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: darkorange;
+    background-repeat: no-repeat;
+    padding-top: 2px;
+    padding-bottom: 22px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+#menu a:hover {
+    background-color: lightyellow;
+   
+}
+
