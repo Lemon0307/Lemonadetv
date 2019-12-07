@@ -6,7 +6,15 @@
 <head>
     <title>Login</title>   
     <link href="Login&RegisterStyle.css" rel="stylesheet" type="text/css">
-    
+    <script>
+    function validate() {
+    var input_text = document.getElementById("user");
+        return false;
+    }
+    alert("Successfully Logged In!");
+   return true;
+        }
+    </script>
 </head>
 <body>
     <div class="content">
@@ -19,7 +27,7 @@
         <tr>
            <td>Username:</td>
            <td>
-            <input type="text" name="user">
+            <input type="text" name="user" id="user">
             </td>
         </tr>
         <tr>
