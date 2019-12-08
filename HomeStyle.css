@@ -98,6 +98,14 @@ width: 235px
    
 }
 
-.sidebar {
-    Left: 0px;
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+       position:fixed;
+    width: 200px;
+    height: 100%;
+    background: yellow;
 }

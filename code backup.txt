@@ -1,0 +1,29 @@
+<form action="login.php" method="post">
+    <div id="wrapper">
+       <table>
+        <tr>
+           <td>Username:</td>
+           <td>
+            <input type="text" name="user" id="user">
+            </td>
+        </tr>
+        <tr>
+           <td>Password:</td>
+            <td>
+            <input type="text" name="user_pass" id="password">
+            
+            </td>
+        </tr>
+           
+           <tr>
+           <td>
+               <input type="submit" name="submit" value="login">
+               </td>
+               
+               <td>
+               No account? <a href="Register.html">Create now!</a>
+               </td>
+           </tr>
+        </table>
+       </div>
+       </form>

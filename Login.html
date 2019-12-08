@@ -8,13 +8,13 @@
     <link href="Login&RegisterStyle.css" rel="stylesheet" type="text/css">
     <script>
     function validate() {
-    var input_text = document.getElementById("name");
-    if (input_text.value == "") {
-        return false;
-    }
-    alert("Successfully Logged In!");
-   return true;
+    var input_text= document.getElementById("user");
+        if (input_text.value == "") {
+            alert("Please insert your name and password.");
+            return false;
         }
+        alert("Succesfully Logged In!")
+        return true;
     </script>
 </head>
 <body>
@@ -22,11 +22,36 @@
    <center>
     <h3>Login</h3>
     
-    <form action="login.php" method="post" onsubmit="return validate();">
-   <input type="text" name="name" id="name" placeholder="Name">
-   <input type="text" name="password" id="password" placeholder="password">
-   <input type="submit" value="Login">
+    <form action="login.php" method="post">
+    <div id="wrapper">
+       <table>
+        <tr>
+           <td>Username:</td>
+           <td>
+            <input type="text" name="user" id="user">
+            </td>
+        </tr>
+        <tr>
+           <td>Password:</td>
+            <td>
+            <input type="text" name="user_pass">
+            
+            </td>
+        </tr>
+           
+           <tr>
+           <td>
+               <a href="index.html"><input type="submit" name="submit" value="Login"></a>
+               </td>
+               
+               <td>
+               No account? <a href="Register.html">Create now!</a> or just <a href="index.html">use without an account</a>
+               </td>
+           </tr>
+        </table>
+       </div>
        </form>
+       
 
     </center> 
         
