@@ -25,9 +25,12 @@ font-family:sans-serif;
     
         .content {
        background: white;
-       width: 100%;
+       width: 80%;
+        height:100%;
+        right: 0%;
        padding: 50px;
-        margin: -10px auto;
+        margin: -10px ;
+        position: absolute;
         
         }
 p {
@@ -107,3 +110,20 @@ h2 {
     
 
 }
+
+#sidebar {
+position: absolute;
+width: 20%;
+height: 100%;
+left: 0%;
+background-color: orange;   
+position: absolute;
+}
+
+#sidebar li {
+color: black;
+font-family: sans-serif;
+padding: 10px;
+border-bottom: 1px solid gray;
+}
+

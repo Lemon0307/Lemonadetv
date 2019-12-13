@@ -25,9 +25,13 @@ div {
 
         .content {
        background: white;
-       width: 100%;
-       padding: 0px;
-        margin: -10px auto;
+       width: 80%;
+    
+        right: 0%;
+       padding: 50px;
+        margin: -10px ;
+        position: absolute;
+        
         
         }
 p {
@@ -122,6 +126,20 @@ font-family:'Bebas Neue',sans-serif;
     
 }
 
-.content-background {
-background-color: orange;
+#sidebar {
+position: absolute;
+width: 20%;
+height: 100%;
+left: 0%;
+background-color: orange;   
+position: absolute;
 }
+
+#sidebar li {
+color: black;
+font-family: sans-serif;
+padding: 10px;
+border-bottom: 1px solid gray;
+}
+
+
