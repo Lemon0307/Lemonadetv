@@ -26,7 +26,7 @@ div {
         .content {
        background: white;
        width: 80%;
-       float: left;
+       float: right;
        padding: 50px;
         margin: -10px ;
         position: absolute;
