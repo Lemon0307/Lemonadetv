@@ -29,7 +29,7 @@ float: right;
 width: 80%;
 height: 100%;
 margin-top: 0px;
-text-align: center;
+
 
 }
 
@@ -138,6 +138,7 @@ position: absolute;
 color: black;
 padding: 10px;
 border-bottom: 1px solid gray;
+text-align: center;
 }
 
 #sidebarfont {
